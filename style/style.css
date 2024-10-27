@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    background-color: rgb(243, 254, 255);
+}
+
+/* HEADER */
+
+header{
+    display: flex;
+    justify-content: end;
+    height: 6vh;
+    padding: 2%;
+    margin-right: 0.6%;
+}
+#head{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#comencaPartida{
+    background-color:  rgb(236, 210, 252);
+    border-radius: 10px;
+    margin-left: 1vw;
+    width: 10vw;
+    border: 2px solid black;
+}
+
+/* MAIN  */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+}
+#titol{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    width: 95%;
+    border-radius: 5;
+    border-radius: 20px;
+}
+
+#ahorcado{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(236, 210, 252);
+    width: 95%;
+    padding:  5% 0 5% 0;
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px black solid;
+}
+
+#stats{
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 2%;
+    margin-left: 5%;
+}
+
+#stats2{
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 2%;
+    margin-right: 5%;
+}
+
+#divImatge{
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+#imatge{    
+    width: 100%;
+    border-radius: 10px;
+}
+
+#lletres{
+    margin-top: 4%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    gap: 0.5%;
+}
+
+.botoLletra{
+    font-size: 1.5em;
+    width: 3%;
+    background-color: greenyellow;
+    border: 1px solid red;
+    border-radius: 10px;
+    color: red;
+}

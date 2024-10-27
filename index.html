@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="/img/icon.png" type="image.png">
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+</head>
+<body>
+
+    <header>
+       
+        <div id="head">
+            <input id="paraulaSecreta" type="password" placeholder="Introdueix una paraula...">
+        <button id="botoMostra" onclick="mostrarParaula()">
+            <span id="ull" class="material-symbols-outlined">visibility</span>
+        </button>
+        <button id="comencaPartida" onclick="comencarPartida()">Començar Partida</button>
+        </div>
+    </header>
+    <main>
+        <div id="titol"><h1 id="textTitol">Començar Partida</h1></div>
+        <div id="ahorcado">
+            
+            <div id="stats">
+                <h3>Jugador1</h3>
+                <p>PUNTS PARTIDA ACTUAL: <span id="score">0</span></p>
+                <p>TOTAL PARTIDES: <span id="totalPartides">0</span></p>
+                <p>PARTIDES GUANYADES: <span id="wins">0</span></p>
+                <p>PARTIDA AMB MÉS PUNTS:  <span id="bestScore">0</span></p>
+            </div>
+
+            <div id="divImatge">
+                <img id="imatge" src="/img/penjat_0.jpg" alt="Imatge Joc Ahorcado">
+            </div>
+
+            <div id="stats2">
+                <h3>Jugador2</h3>
+                <p>PUNTS PARTIDA ACTUAL: <span id="score2">0</span></p>
+                <p>TOTAL PARTIDES: <span id="totalPartides2">0</span></p>
+                <p>PARTIDES GUANYADES: <span id="wins2">0</span></p>
+                <p>PARTIDA AMB MÉS PUNTS:  <span id="bestScore2">0</span></p>
+            </div>
+
+        </div>
+
+        <div id="lletres">
+            
+        </div>
+    </main>
+
+    <script src="/joc.js/code.js"> </script>
+
+</body>
+</html>
